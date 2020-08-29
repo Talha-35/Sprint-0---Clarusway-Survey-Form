@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprint-0-assignment</title>
+    <link rel="stylesheet" href="sprint-0.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="Container">
+        <p id="title1">Clarusway Survey Form</p>
+        <p id="title2">Thank you for taking the time to help us improve the platform</p>
+        <div>
+            <form action="result.html" name="Sprint-0" id="Sprint-0" method="get">
+                <div>
+                    <label for="Name">Name <br><br><input type="text" name="Name" id="Name"
+                            placeholder="Enter your name"></label><br>
+                    <label for="Name">Surname <br><br><input type="text" name="Surname" id="Surname"
+                            placeholder="Enter your surname"></label><br>
+                    <label for="Name">Email <br><br><input type="text" name="Email" id="Email"
+                            placeholder="user@clarusway.com"></label>
+                </div>
+                <div>
+                    <p class="pfont">Which option best describes your current role?</p>
+                    <label for="job">
+                        <select name="jobs" id="job">
+                            <option value="" disabled>Select current role</option>
+                            <option value="Student">Student</option>
+                            <option value="Teacher" selected>Teacher</option>
+                            <option value="Full Time Job">Full Time Job</option>
+                            <option value="Part Time Job">Part Time Job</option>
+                            <option value="Full Time Lerner">Full Time Lerner</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <p class="pfont">Would you recommend Clarusway to a friend ?</p>
+                    <label for="yes"><input type="radio" value="Definitly, Yes" name="" id="yes" checked>Definitly,
+                        Yes</label><br><br>
+                    <label for="may"><input type="radio" value="May be" name="frag" id="may">May be</label><br><br>
+                    <label for="not"><input type="radio" value="Not sure" name="frag" id="not">Not sure</label><br><br>
+                    <label for="no"><input type="radio" value="Definitly no" name="frag" id="no">Definitly
+                        no</label><br><br>
+                </div>
+                <div>
+                    <p class="pfont">What is your favorite feature of Clarusway?</p>
+                    <label for="job2">
+                        <select name="jobs2" id="job2">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Student">Courses</option>
+                            <option value="Teacher">Pojects</option>
+                            <option value="Full Time Job">Community</option>
+                            <option value="Part Time Job">Mentors</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <p class="pfont">What would you like to see improved? (Check all that apply)</p>
+                    <label for="front"><input type="checkbox" name="lessons" value="front" id="front" />Front-end
+                        Projects</label><br><br>
+                    <label for="back"><input type="checkbox" name="lessons" value="back" id="back" />Back-end
+                        Projects</label><br><br>
+                    <label for="data"><input type="checkbox" name="lessons" value="data" id="data" />Data
+                        Science</label><br><br>
+                    <label for="addi"><input type="checkbox" name="lessons" value="addi" id="addi" />Additional
+                        Courses</label><br><br>
+                </div>
+                <div>
+                    <p class="pfont">Any comments or suggestions?</p>
+                    <textarea name="" id="" cols="20" rows="2"
+                        placeholder="Enter your comment here... Thanks for your commets"></textarea>
+                    <input type="submit" value="Submit" name="Submit" id="submit" />
+                </div>
+
+            </form>
+        </div>
+</body>
+
+</html>
